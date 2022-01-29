@@ -14,7 +14,6 @@ describe('ButtonsGenerator', () => {
         const buttonTextInput = ButtonsGeneratorMain.baseElement.querySelector('[name="button-text"]')
         expect(buttonTextInput).not.toBeNull();
         expect(buttonTextInput.tagName).toEqual('INPUT');
-        expect(buttonTextInput.a).toEqual('INPUT');
     });
 
     it('should render button color input', () => {
