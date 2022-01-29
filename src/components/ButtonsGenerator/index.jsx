@@ -7,6 +7,7 @@ const ButtonsGenerator = () => {
             Generate custom buttons css code easy
             <input type="text" name="button-text" placeholder='Button text' />
             <input type="text" name="button-color" placeholder='Button Color' />
+            <input type="submit" />
         </div>
     );
 }
